@@ -1,47 +1,85 @@
 body {
 	margin: 0;
-
+	padding: 61px 170px 69px;
 	background: linear-gradient(to top left, #ff512f, #dd2476);
 	font-family: Arial, sans-serif;
 	color: #7a7b7f;
 }
 .conteiner {
-	position: relative;
+	box-sizing: border-box;
 	margin: auto;
-	vertical-align: middle;
-	width: 60%;
+	padding: 30px;
+	width: 460px;
 	background-color: #ffffff;
 	border-radius: 8px;
 }
+.form-header {
+	margin: 0;
+	position: relative;
+	margin-bottom: 35px;	
+}
+svg {
+	width: 24px;
+	height: 24px;
+}
 h1 {
-	padding-top: 31px;
-	padding-left: 65px;
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 34px;
 	font-size: 24px;
 	font-weight: bold;
 	color: #1b1c1d;
 }
 .form-header--text {
+	width: 390px;
 	font-size: 13px;
-	line-height: 1.2;
+	line-height: 1.5;
 }
 a {
 	color: #ea355a;
 	text-decoration: none;
 }
+.form {
+	position: relative;
+	margin-bottom: 16px;
+}
 .form-list {
+	box-sizing: border-box;
 	background-color: #f0f0f0;
+	margin-bottom: 16px;
 	border: 0;
 	border-radius: 8px;
-	padding-top: 14px;
-	padding-left: 14px;
-	padding-bottom: 15px;
+	padding-top: 16px;
+	padding-left: 15px;
+	padding-bottom: 16px;
+}
+.form-list--firstname {
+	width: 190px;
+}
+.form-list--lastname {
+	width: 190px;
+	float: right;
+}
+.form-list--email {
+	width: 400px;
+}
+.form-list--password {
+	width: 400px;
 }
 .btn {
 	background-color: #ea355a;
 	border-radius: 8px;
-	padding: 17px 135px;
-	width: 80%;
+	border: 0;
+	border-bottom: 4px solid #bd1962;
+	padding: 17px 0;
+	width: 100%;
 	font-size: 18px;
 	font-weight: bold;
 	color: #ffffff;
+}
+.note-text {
+	font-size: 12px;
+	line-height: 1.5;
+	width: 390px;
 }
